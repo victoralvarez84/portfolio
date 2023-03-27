@@ -149,7 +149,7 @@
     .clean .overlay span:nth-child(1){
       position: absolute;
       left: 15%;
-      top: 30%;
+      top: 20%;
       font-size: 80px;
       font-weight: bold;
       font-family: coustard;
@@ -158,7 +158,7 @@
     
     .clean .overlay span:nth-child(2){
       position: absolute;
-      top: 40%;
+      top: 30%;
       left: 50%;
       font-size: 17px;
       transform: translateX(-50%);
@@ -169,7 +169,7 @@
       height: 3px;
       background-color: #009add;
       position: absolute;
-      top: 90%;
+      top: 88%;
       left: 0;
     }
     
