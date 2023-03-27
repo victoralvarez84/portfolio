@@ -17,6 +17,7 @@
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    line-height:100%;
   }
 
   h1:hover{
@@ -147,8 +148,8 @@
     /* effect-clean*/
     .clean .overlay span:nth-child(1){
       position: absolute;
-      left: 30%;
-      top: 35%;
+      left: 15%;
+      top: 30%;
       font-size: 80px;
       font-weight: bold;
       font-family: coustard;
@@ -157,17 +158,18 @@
     
     .clean .overlay span:nth-child(2){
       position: absolute;
-      top: 50%;
+      top: 40%;
       left: 50%;
       font-size: 17px;
       transform: translateX(-50%);
+      width:75%;
     }
     
     .clean .overlay span:nth-child(3){
       height: 3px;
       background-color: #009add;
       position: absolute;
-      top: 70%;
+      top: 90%;
       left: 0;
     }
     
@@ -271,7 +273,6 @@
       opacity: 0;
     }
         
-    
     .explode .overlay:hover{
       opacity: 0.9;
     }
