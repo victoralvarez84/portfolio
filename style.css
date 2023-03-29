@@ -53,11 +53,11 @@
   /* PORTFOLIO */
   
   .card{
-    height:700px;  
+    height:400px;  
     cursor:pointer;
-    background-size:contain;
-    background-position:bottom;
-    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:100px 10 !important;
+    background-repeat:no-repeat !important;
     box-shadow: 0 2px 12px rgba(0,0,0,0.5);
     cursor:pointer;
   }
@@ -93,7 +93,8 @@
     
   .card-6{
   background:url("https://previews.dropbox.com/p/thumb/AB2OHI5DCBGWN6ESL0PDpi_RS9xLskv9ZXNb6Sm4Hf2OGJI4Mt9GqIfS7uxwlbyvSgTZ-SBm8ZhtyBKR67zvdzI8NgWOgk1-o9f2xAvhi60J1RoXn9A3LxnpGD8rQ-QU-Kaf2aK1Y_qTVUtA0KhAm9IVvY4cPfCx2MbR-JiCqYc8eLUtfBfJ-IWI8NIrP5bBdATF6bKGtOHaZb2F_TXj_djslTnrL6bT-9GKVPhyzAm1bHBBH9lr9B5Eudku3AqIJM6mN2H_MlnhY3k1vPsnrR3kY79kY-rOOA-6-eae_UXR65KZRHrF_BGjL3xui5HbdREkrtjHCt_qglSWOkpDUNCJenuFAhZdJjSUCW-2QbEBUq_8at-sxnjhMfMpDkSQG64/p.png");
-  }
+  background-position:top center;  
+}
 
 
   a i{
