@@ -18,6 +18,7 @@
     -o-transition: 0.3s;
     transition: 0.3s;
     line-height:100%;
+    border:2px solid red;
   }
 
   h1:hover{
